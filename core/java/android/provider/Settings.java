@@ -4288,6 +4288,12 @@ public final class Settings {
         private static final Validator OMNI_QS_PANEL_BG_ALPHA_VALIDATOR =
                 ANY_INTEGER_VALIDATOR;
 
+        /** Whether to skip music track with volume rocker 
+        /**
+         * @hide
+         */
+        public static final String VOLUME_BUTTON_MUSIC_CONTROL = "volume_button_music_control";
+
         /**
          * @hide
          */
