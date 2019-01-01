@@ -684,7 +684,7 @@ public class StatusBar extends SystemUI implements DemoMode,
                 mStatusBarWindow.updateSettings();
             }
             mHideLockscreenArtwork = Settings.System.getIntForUser(mContext.getContentResolver(),
-                    Settings.System.OMNI_LOCKSCREEN_HIDE_MEDIA, 0,
+                    Settings.System.OMNI_LOCKSCREEN_HIDE_MEDIA, 1,
                     UserHandle.USER_CURRENT) != 0;
             if (mNotificationPanel != null) {
                 mNotificationPanel.updateSettings();

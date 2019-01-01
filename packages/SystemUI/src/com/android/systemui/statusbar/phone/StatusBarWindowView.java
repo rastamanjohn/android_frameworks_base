@@ -811,7 +811,7 @@ public class StatusBarWindowView extends FrameLayout {
 
     public void updateSettings() {
         boolean doubleTapToSleepEnabled = Settings.System.getIntForUser(
-                mContext.getContentResolver(), Settings.System.OMNI_DOUBLE_TAP_SLEEP_GESTURE, 0,
+                mContext.getContentResolver(), Settings.System.OMNI_DOUBLE_TAP_SLEEP_GESTURE, 1,
                 UserHandle.USER_CURRENT) == 1;
         boolean isDoubleTapEnabled = Settings.System.getIntForUser(
                 mContext.getContentResolver(), Settings.System.OMNI_DOUBLE_TAP_SLEEP_LOCKSCREEN, 0,

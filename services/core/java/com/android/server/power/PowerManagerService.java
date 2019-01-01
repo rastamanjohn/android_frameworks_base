@@ -4893,7 +4893,7 @@ public final class PowerManagerService extends SystemService
                     0, UserHandle.USER_CURRENT) != 0;
             mButtonBacklightEnable = Settings.System.getIntForUser(
                     mContext.getContentResolver(), Settings.System.OMNI_BUTTON_BACKLIGHT_ENABLE,
-                    1, UserHandle.USER_CURRENT) != 0;
+                    0, UserHandle.USER_CURRENT) != 0;
             boolean hardwareKeysDisable = Settings.System.getIntForUser(
                     mContext.getContentResolver(), Settings.System.OMNI_HARDWARE_KEYS_DISABLE,
                     0, UserHandle.USER_CURRENT) != 0;
